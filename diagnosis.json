@@ -1,0 +1,525 @@
+{
+  "depression": {
+    "meets_criteria": false,
+    "criteria_details": {
+      "Required": [
+        {
+          "criterion": "Five or more symptoms present for at least 2 weeks",
+          "met": false,
+          "evidence": "The patient summary indicates only two symptoms: experiencing hand shaking and blank mind in crowds, and feeling more irritable than usual. There is no mention of other symptoms or the duration of these symptoms.",
+          "confidence": 5
+        },
+        {
+          "criterion": "At least one symptom is either depressed mood or loss of interest/pleasure",
+          "met": false,
+          "evidence": "The patient summary does not mention symptoms of depressed mood or loss of interest/pleasure. The symptoms noted are hand shaking, blank mind in crowds, and increased irritability.",
+          "confidence": 4
+        }
+      ],
+      "Symptoms": [
+        {
+          "criterion": "Depressed mood most of the day, nearly every day",
+          "met": false,
+          "evidence": "The provided summary does not mention a depressed mood most of the day, nearly every day. It only mentions hand shaking, blank mind in crowds, and increased irritability.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Markedly diminished interest or pleasure in activities",
+          "met": false,
+          "evidence": "The provided summary does not mention any specific information about a markedly diminished interest or pleasure in activities. The patient reports experiencing hand shaking and a blank mind in crowds, as well as feeling more irritable than usual, but these symptoms do not directly indicate a loss of interest or pleasure in activities.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Significant weight loss/gain or appetite change",
+          "met": false,
+          "evidence": "The patient summary does not mention any significant weight loss, weight gain, or changes in appetite.",
+          "confidence": 5
+        },
+        {
+          "criterion": "Insomnia or hypersomnia",
+          "met": false,
+          "evidence": "The patient summary does not mention any issues related to insomnia or hypersomnia.",
+          "confidence": 5
+        },
+        {
+          "criterion": "Psychomotor agitation or retardation",
+          "met": true,
+          "evidence": "The patient is experiencing hand shaking and a blank mind in crowds, which are indicative of psychomotor agitation.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Fatigue or loss of energy",
+          "met": false,
+          "evidence": "The patient summary does not mention fatigue or loss of energy. The primary concerns are hand shaking, blank mind in crowds, and increased irritability.",
+          "confidence": 5
+        },
+        {
+          "criterion": "Feelings of worthlessness or excessive guilt",
+          "met": false,
+          "evidence": "The patient summary does not mention any feelings of worthlessness or excessive guilt. The primary concerns are hand shaking, blank mind in crowds, irritability, and emotional well-being.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Diminished ability to think/concentrate or indecisiveness",
+          "met": true,
+          "evidence": "The patient reports experiencing a 'blank mind in crowds,' which indicates a diminished ability to think or concentrate. Additionally, the patient is feeling more irritable than usual, which can be associated with cognitive difficulties.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Recurrent thoughts of death or suicidal ideation",
+          "met": false,
+          "evidence": "The patient summary does not mention any recurrent thoughts of death or suicidal ideation.",
+          "confidence": 5
+        }
+      ],
+      "Functional Impact": [
+        {
+          "criterion": "Symptoms cause clinically significant distress or impairment",
+          "met": true,
+          "evidence": "The patient, Jerry Momoa, is experiencing hand shaking and a blank mind in crowds, which suggests significant anxiety and distress in social situations. Additionally, he is feeling more irritable than usual, which may impact his interpersonal relationships. His concern about his emotional well-being and the impact on his daily life further supports that his symptoms are causing clinically significant distress or impairment.",
+          "confidence": 4
+        }
+      ],
+      "Exclusion": [
+        {
+          "criterion": "Symptoms not attributable to substance use or another medical condition",
+          "met": true,
+          "evidence": "The patient has not reported any substance use or medical conditions that could account for the symptoms. The symptoms described, such as hand shaking and feeling irritable, appear to be linked to emotional well-being and daily life impact rather than another medical condition.",
+          "confidence": 4
+        }
+      ]
+    },
+    "average_confidence": 4.38,
+    "assessment_tool": null,
+    "assessment_score": null,
+    "assessment_details": null,
+    "severity": "N/A",
+    "panic_attacks": null,
+    "score": 30.77
+  },
+  "separation_anxiety_disorder": {
+    "meets_criteria": false,
+    "criteria_details": {
+      "Required": [
+        {
+          "criterion": "Developmentally inappropriate and excessive fear or anxiety concerning separation from those to whom the individual is attached",
+          "met": false,
+          "evidence": "The patient summary does not provide specific information about fear or anxiety concerning separation from attachment figures. The symptoms described (hand shaking, blank mind in crowds, irritability) do not directly indicate separation anxiety.",
+          "confidence": 4
+        }
+      ],
+      "Symptoms": [
+        {
+          "criterion": "Recurrent excessive distress when anticipating or experiencing separation from home or from major attachment figures",
+          "met": false,
+          "evidence": "The patient summary does not provide any information about recurrent excessive distress when anticipating or experiencing separation from home or from major attachment figures. The details focus on other issues such as hand shaking in crowds and irritability.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Persistent and excessive worry about losing major attachment figures or about possible harm to them",
+          "met": false,
+          "evidence": "The provided patient summary does not mention any persistent and excessive worry about losing major attachment figures or about possible harm to them.",
+          "confidence": 5
+        },
+        {
+          "criterion": "Persistent and excessive worry about experiencing an untoward event that causes separation from a major attachment figure",
+          "met": false,
+          "evidence": "The provided patient summary does not mention any persistent and excessive worry about experiencing an untoward event that causes separation from a major attachment figure. The summary mainly discusses symptoms like hand shaking, blank mind in crowds, irritability, and concern about emotional well-being and daily life impact.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Persistent reluctance or refusal to go out, away from home, to school, to work, or elsewhere because of fear of separation",
+          "met": false,
+          "evidence": "The patient summary does not indicate any explicit reluctance or refusal to go out, away from home, to school, to work, or elsewhere due to fear of separation. The symptoms mentioned (hand shaking and blank mind in crowds, feeling more irritable) do not directly suggest a fear of separation.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Persistent and excessive fear of or reluctance about being alone or without major attachment figures at home or in other settings",
+          "met": false,
+          "evidence": "The provided patient summary does not mention any fear or reluctance about being alone or without major attachment figures at home or in other settings. The symptoms described are related to anxiety in crowds and irritability, which do not directly indicate separation anxiety disorder.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Persistent reluctance or refusal to sleep away from home or to go to sleep without being near a major attachment figure",
+          "met": false,
+          "evidence": "The provided patient summary does not mention any issues related to reluctance or refusal to sleep away from home or without being near a major attachment figure. The symptoms described are related to anxiety in crowds and irritability, but there is no information about sleep-related behaviors or attachment issues.",
+          "confidence": 5
+        },
+        {
+          "criterion": "Repeated nightmares involving the theme of separation",
+          "met": false,
+          "evidence": "The patient summary does not mention any instances of nightmares, let alone repeated nightmares involving the theme of separation.",
+          "confidence": 5
+        },
+        {
+          "criterion": "Repeated complaints of physical symptoms when separation from major attachment figures occurs or is anticipated",
+          "met": false,
+          "evidence": "The patient summary indicates that there are no physical symptoms noticed yet. The criterion requires repeated complaints of physical symptoms when separation from major attachment figures occurs or is anticipated, which is not present in this case.",
+          "confidence": 5
+        }
+      ],
+      "Duration": [
+        {
+          "criterion": "The fear, anxiety, or avoidance is persistent, lasting at least 4 weeks in children and adolescents and typically 6 months or more in adults",
+          "met": false,
+          "evidence": "The provided patient summary does not specify the duration of the fear, anxiety, or avoidance. Therefore, it is not possible to determine if the symptoms have persisted for at least 6 months, which is required for adults.",
+          "confidence": 4
+        }
+      ],
+      "Functional Impact": [
+        {
+          "criterion": "The disturbance causes clinically significant distress or impairment in social, academic, occupational, or other important areas of functioning",
+          "met": true,
+          "evidence": "The patient, Jerry Momoa, is experiencing significant distress as evidenced by hand shaking and a blank mind in crowds, which are impacting his daily life. Additionally, he is feeling more irritable than usual and is concerned about his emotional well-being and the impact on his daily life. These symptoms suggest impairment in social and possibly other important areas of functioning.",
+          "confidence": 4
+        }
+      ],
+      "Exclusion": [
+        {
+          "criterion": "The disturbance is not better explained by another mental disorder",
+          "met": false,
+          "evidence": "The patient is experiencing hand shaking and a blank mind in crowds, along with increased irritability. These symptoms could be indicative of social anxiety disorder or generalized anxiety disorder, rather than separation anxiety disorder. There is no specific mention of symptoms directly related to separation anxiety, such as excessive distress when anticipating or experiencing separation from home or major attachment figures.",
+          "confidence": 4
+        }
+      ]
+    },
+    "average_confidence": 4.33,
+    "assessment_tool": null,
+    "assessment_score": null,
+    "assessment_details": null,
+    "severity": "N/A",
+    "panic_attacks": {
+      "present": false,
+      "evidence": "The patient does not report experiencing an abrupt surge of intense fear or discomfort that reaches a peak within minutes. Additionally, the patient does not exhibit four or more of the specified symptoms of a panic attack. The only symptoms mentioned are hand shaking and a blank mind in crowds, which are insufficient for a diagnosis of panic attacks.",
+      "symptoms": [
+        "Trembling or shaking"
+      ]
+    },
+    "score": 8.33
+  },
+  "selective_mutism": {
+    "meets_criteria": false,
+    "criteria_details": {
+      "Required": [
+        {
+          "criterion": "Consistent failure to speak in specific social situations in which there is an expectation for speaking (e.g., at school) despite speaking in other situations",
+          "met": false,
+          "evidence": "The patient summary does not provide any specific information indicating a consistent failure to speak in specific social situations where there is an expectation for speaking, such as at school or work. The summary mentions experiencing hand shaking and a blank mind in crowds, but this does not directly relate to selective mutism.",
+          "confidence": 4
+        }
+      ],
+      "Functional Impact": [
+        {
+          "criterion": "The disturbance interferes with educational or occupational achievement or with social communication",
+          "met": true,
+          "evidence": "Jerry Momoa is experiencing hand shaking and a blank mind in crowds, which suggests significant anxiety that likely interferes with social communication. Additionally, he is unemployed despite having a Master's degree, indicating potential interference with occupational achievement.",
+          "confidence": 4
+        }
+      ],
+      "Duration": [
+        {
+          "criterion": "The duration of the disturbance is at least 1 month (not limited to the first month of school)",
+          "met": false,
+          "evidence": "The provided summary does not mention the duration of the disturbance. There is no information indicating whether the symptoms have lasted for at least 1 month.",
+          "confidence": 5
+        }
+      ],
+      "Exclusion": [
+        {
+          "criterion": "The failure to speak is not attributable to a lack of knowledge of, or comfort with, the spoken language required in the social situation",
+          "met": false,
+          "evidence": "The summary does not provide any information about Jerry Momoa's knowledge of or comfort with the spoken language required in social situations. Without this information, we cannot determine if his failure to speak is due to a lack of knowledge or comfort with the language.",
+          "confidence": 3
+        },
+        {
+          "criterion": "The disturbance is not better explained by a communication disorder and does not occur exclusively during the course of autism spectrum disorder, schizophrenia, or another psychotic disorder",
+          "met": false,
+          "evidence": "The provided patient summary does not include any information about a communication disorder, autism spectrum disorder, schizophrenia, or another psychotic disorder. Therefore, it is not possible to determine if the disturbance is better explained by any of these conditions based on the given information.",
+          "confidence": 2
+        }
+      ]
+    },
+    "average_confidence": 3.6,
+    "assessment_tool": null,
+    "assessment_score": null,
+    "assessment_details": null,
+    "severity": "N/A",
+    "panic_attacks": null,
+    "score": 20.0
+  },
+  "social_anxiety_disorder": {
+    "meets_criteria": true,
+    "criteria_details": {
+      "Required": [
+        {
+          "criterion": "Marked fear or anxiety about one or more social situations in which the individual is exposed to possible scrutiny by others",
+          "met": true,
+          "evidence": "The patient, Jerry Momoa, reports experiencing hand shaking and a blank mind in crowds, which indicates marked fear or anxiety in social situations where he is exposed to possible scrutiny by others.",
+          "confidence": 4
+        }
+      ],
+      "Symptoms": [
+        {
+          "criterion": "The individual fears that he or she will act in a way or show anxiety symptoms that will be negatively evaluated",
+          "met": true,
+          "evidence": "The patient, Jerry Momoa, experiences hand shaking and a blank mind in crowds, which are symptoms of anxiety. He is concerned about the impact on his emotional well-being and daily life, indicating a fear of negative evaluation.",
+          "confidence": 4
+        },
+        {
+          "criterion": "The social situations almost always provoke fear or anxiety",
+          "met": true,
+          "evidence": "The patient experiences hand shaking and a blank mind in crowds, indicating that social situations provoke fear or anxiety.",
+          "confidence": 4
+        },
+        {
+          "criterion": "The social situations are avoided or endured with intense fear or anxiety",
+          "met": true,
+          "evidence": "The patient experiences hand shaking and a blank mind in crowds, which indicates intense fear or anxiety in social situations.",
+          "confidence": 4
+        },
+        {
+          "criterion": "The fear or anxiety is out of proportion to the actual threat posed by the social situation and to the sociocultural context",
+          "met": true,
+          "evidence": "The patient, Jerry Momoa, experiences significant fear and anxiety in social situations, as evidenced by hand shaking and a blank mind in crowds. These reactions are disproportionate to the actual threat posed by the social situations, especially considering his educational background and marital status, which suggest he is capable of handling social interactions. Additionally, his concern about the impact on his emotional well-being and daily life further supports that his anxiety is out of proportion to the sociocultural context.",
+          "confidence": 4
+        }
+      ],
+      "Duration": [
+        {
+          "criterion": "The fear, anxiety, or avoidance is persistent, typically lasting for 6 months or more",
+          "met": false,
+          "evidence": "The provided patient summary does not specify the duration of the fear, anxiety, or avoidance. It only mentions current symptoms such as hand shaking and a blank mind in crowds, and feeling more irritable than usual.",
+          "confidence": 3
+        }
+      ],
+      "Functional Impact": [
+        {
+          "criterion": "The fear, anxiety, or avoidance causes clinically significant distress or impairment in social, occupational, or other important areas of functioning",
+          "met": true,
+          "evidence": "Jerry Momoa is experiencing significant distress in social situations, as evidenced by hand shaking and a blank mind in crowds. This distress has impacted his daily life, contributing to irritability and concern about his emotional well-being. Additionally, he is currently unemployed, which may be related to his social anxiety.",
+          "confidence": 4
+        }
+      ],
+      "Exclusion": [
+        {
+          "criterion": "The fear, anxiety, or avoidance is not attributable to the physiological effects of a substance or another medical condition",
+          "met": true,
+          "evidence": "The patient, Jerry Momoa, is experiencing symptoms such as hand shaking and a blank mind in crowds, and feeling more irritable than usual. There is no mention of substance use or another medical condition in the provided summary that could explain these symptoms.",
+          "confidence": 4
+        },
+        {
+          "criterion": "The fear, anxiety, or avoidance is not better explained by the symptoms of another mental disorder",
+          "met": true,
+          "evidence": "The patient, Jerry Momoa, reports experiencing hand shaking and a blank mind in crowds, along with increased irritability. There are no indications from the provided summary that these symptoms are better explained by another mental disorder. The absence of any other mental disorder in his medical history or psychosocial context supports this evaluation.",
+          "confidence": 4
+        },
+        {
+          "criterion": "If another medical condition is present, the fear, anxiety, or avoidance is clearly unrelated or is excessive",
+          "met": true,
+          "evidence": "The patient, Jerry Momoa, experiences hand shaking and a blank mind in crowds, which are symptoms of anxiety. There is no mention of any other medical condition that could explain these symptoms. Therefore, the fear, anxiety, or avoidance appears to be excessive and not related to another medical condition.",
+          "confidence": 4
+        }
+      ]
+    },
+    "average_confidence": 3.9,
+    "assessment_tool": "SPIN (Social Phobia Inventory)",
+    "assessment_score": 23,
+    "assessment_details": [
+      {
+        "question": "I am afraid of people in authority",
+        "score": 2,
+        "rationale": "The patient experiences physical symptoms such as hand shaking and a blank mind in crowds, which indicates some level of social anxiety. However, there is no specific mention of fear of people in authority. The symptoms suggest a moderate level of social anxiety, but without explicit reference to authority figures, a score of 2 (mild fear) is appropriate."
+      },
+      {
+        "question": "I am bothered by blushing in front of people",
+        "score": 0,
+        "rationale": "The patient's summary does not mention any issues related to blushing in front of people. The concerns noted include hand shaking, blank mind in crowds, and increased irritability, but there is no indication that blushing is a problem."
+      },
+      {
+        "question": "Parties and social events scare me",
+        "score": 3,
+        "rationale": "The patient experiences hand shaking and a blank mind in crowds, which indicates a significant level of fear and anxiety in social situations such as parties and social events. This aligns with a score of 3 on the SPIN scale, which corresponds to 'Very much' fear."
+      },
+      {
+        "question": "I avoid talking to people I don't know",
+        "score": 3,
+        "rationale": "Jerry experiences significant anxiety symptoms such as hand shaking and a blank mind in crowds, which suggests he likely avoids talking to people he doesn't know to prevent these symptoms. This level of avoidance aligns with a score of 3, indicating that he avoids such situations often."
+      },
+      {
+        "question": "Being criticized scares me a lot",
+        "score": 2,
+        "rationale": "The patient reports experiencing hand shaking and a blank mind in crowds, indicating some level of social anxiety. However, there is no specific mention of fear of criticism. Therefore, a moderate score is appropriate."
+      },
+      {
+        "question": "I avoid doing things or speaking to people for fear of embarrassment",
+        "score": 3,
+        "rationale": "The patient experiences hand shaking and a blank mind in crowds, which suggests a significant level of anxiety and avoidance behavior due to fear of embarrassment. This aligns with a score of 3, indicating that the patient often avoids doing things or speaking to people for fear of embarrassment."
+      },
+      {
+        "question": "Sweating in front of people causes me distress",
+        "score": 1,
+        "rationale": "The patient reports experiencing hand shaking and a blank mind in crowds, which indicates some level of social anxiety. However, there is no specific mention of sweating in front of people causing distress. Therefore, a low score of 1 is given, indicating that this symptom is present but not prominent."
+      },
+      {
+        "question": "I avoid going to parties",
+        "score": 3,
+        "rationale": "The patient experiences significant anxiety symptoms in crowds, such as hand shaking and a blank mind, which likely contribute to avoidance behaviors. This suggests a high likelihood of avoiding social gatherings like parties."
+      },
+      {
+        "question": "I avoid activities in which I am the center of attention",
+        "score": 3,
+        "rationale": "The patient experiences significant anxiety symptoms such as hand shaking and a blank mind in crowds, indicating a high level of discomfort in social situations. This suggests that he likely avoids activities where he is the center of attention to prevent these symptoms from occurring."
+      },
+      {
+        "question": "Talking to strangers scares me",
+        "score": 3,
+        "rationale": "The patient experiences hand shaking and a blank mind in crowds, which indicates a significant level of anxiety when interacting with strangers. This aligns with a score of 3, which reflects a considerable fear of talking to strangers."
+      }
+    ],
+    "severity": "Moderate",
+    "panic_attacks": {
+      "present": false,
+      "evidence": "The patient reports experiencing hand shaking and a blank mind in crowds, but does not report any of the other symptoms required to diagnose a panic attack according to the DSM-5 criteria.",
+      "symptoms": [
+        "Trembling or shaking"
+      ]
+    },
+    "score": 100.0
+  },
+  "panic_disorder": {
+    "meets_criteria": false,
+    "criteria_details": {
+      "Required": [
+        {
+          "criterion": "Recurrent unexpected panic attacks",
+          "met": false,
+          "evidence": "The patient summary does not mention any instances of panic attacks, whether expected or unexpected. The symptoms described include hand shaking and a blank mind in crowds, as well as increased irritability, but these do not constitute panic attacks.",
+          "confidence": 4
+        },
+        {
+          "criterion": "At least one of the attacks has been followed by 1 month (or more) of persistent concern or worry about additional panic attacks or their consequences, or a significant maladaptive change in behavior related to the attacks",
+          "met": false,
+          "evidence": "The patient summary does not provide information indicating that the patient has experienced persistent concern or worry about additional panic attacks or their consequences for 1 month or more. Additionally, there is no mention of a significant maladaptive change in behavior related to the attacks.",
+          "confidence": 4
+        }
+      ],
+      "Exclusion": [
+        {
+          "criterion": "The disturbance is not attributable to the physiological effects of a substance or another medical condition",
+          "met": true,
+          "evidence": "The patient, Jerry Momoa, has not reported any physical symptoms or medical history that could attribute his disturbances to the physiological effects of a substance or another medical condition. His symptoms include hand shaking, blank mind in crowds, and increased irritability, which are more indicative of psychological factors rather than physiological ones.",
+          "confidence": 4
+        },
+        {
+          "criterion": "The disturbance is not better explained by another mental disorder",
+          "met": false,
+          "evidence": "The patient is experiencing hand shaking and a blank mind in crowds, as well as increased irritability. However, there is insufficient information to rule out other mental disorders that could explain these symptoms, such as social anxiety disorder or generalized anxiety disorder.",
+          "confidence": 3
+        }
+      ]
+    },
+    "average_confidence": 3.75,
+    "assessment_tool": null,
+    "assessment_score": null,
+    "assessment_details": null,
+    "severity": "N/A",
+    "panic_attacks": {
+      "present": false,
+      "evidence": "The patient does not report experiencing an abrupt surge of intense fear or discomfort that reaches a peak within minutes. Additionally, the patient only mentions experiencing hand shaking and a blank mind in crowds, which does not meet the criteria of four or more symptoms required for a panic attack.",
+      "symptoms": [
+        "Trembling or shaking"
+      ]
+    },
+    "score": 25.0
+  },
+  "generalized_anxiety_disorder": {
+    "meets_criteria": false,
+    "criteria_details": {
+      "Required": [
+        {
+          "criterion": "Excessive anxiety and worry (apprehensive expectation), occurring more days than not for at least 6 months, about a number of events or activities",
+          "met": false,
+          "evidence": "The patient summary does not provide specific information about the duration (at least 6 months) or the frequency (more days than not) of the anxiety and worry. Additionally, while there are mentions of symptoms like hand shaking, blank mind in crowds, and irritability, there is no clear indication that these symptoms are related to excessive anxiety and worry about a number of events or activities.",
+          "confidence": 3
+        },
+        {
+          "criterion": "The individual finds it difficult to control the worry",
+          "met": false,
+          "evidence": "The patient summary does not explicitly mention difficulty in controlling worry. It mentions experiencing hand shaking, blank mind in crowds, and increased irritability, but these symptoms alone do not confirm difficulty in controlling worry.",
+          "confidence": 3
+        }
+      ],
+      "Symptoms": [
+        {
+          "criterion": "Restlessness or feeling keyed up or on edge",
+          "met": true,
+          "evidence": "The patient reports experiencing hand shaking and a blank mind in crowds, which are indicative of restlessness or feeling keyed up or on edge. Additionally, the patient feels more irritable than usual, further supporting this criterion.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Being easily fatigued",
+          "met": false,
+          "evidence": "The patient summary does not mention any specific instances or complaints of being easily fatigued. The focus is on experiencing hand shaking, a blank mind in crowds, and increased irritability.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Difficulty concentrating or mind going blank",
+          "met": true,
+          "evidence": "The patient reports experiencing a blank mind in crowds, which indicates difficulty concentrating.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Irritability",
+          "met": true,
+          "evidence": "The patient reports feeling more irritable than usual, which is a direct indication of increased irritability.",
+          "confidence": 5
+        },
+        {
+          "criterion": "Muscle tension",
+          "met": true,
+          "evidence": "The patient is experiencing hand shaking, which is a form of muscle tension.",
+          "confidence": 4
+        },
+        {
+          "criterion": "Sleep disturbance (difficulty falling or staying asleep, or restless, unsatisfying sleep)",
+          "met": false,
+          "evidence": "The patient summary does not mention any issues related to sleep disturbance, such as difficulty falling or staying asleep, or restless, unsatisfying sleep.",
+          "confidence": 5
+        }
+      ],
+      "Functional Impact": [
+        {
+          "criterion": "The anxiety, worry, or physical symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning",
+          "met": true,
+          "evidence": "The patient, Jerry Momoa, is experiencing significant distress and impairment in daily life as evidenced by his hand shaking and blank mind in crowds, increased irritability, and concern about his emotional well-being and daily life impact. Additionally, his unemployment status may be related to his anxiety and worry.",
+          "confidence": 4
+        }
+      ],
+      "Exclusion": [
+        {
+          "criterion": "The disturbance is not attributable to the physiological effects of a substance or another medical condition",
+          "met": true,
+          "evidence": "The patient has not reported any medical history or substance use that could explain the symptoms. The symptoms described (hand shaking, blank mind, irritability) are more indicative of anxiety rather than a physiological condition or substance effect.",
+          "confidence": 4
+        },
+        {
+          "criterion": "The disturbance is not better explained by another mental disorder",
+          "met": false,
+          "evidence": "The patient is experiencing symptoms such as hand shaking, blank mind in crowds, and increased irritability. However, there is insufficient information to rule out other mental disorders that could explain these symptoms, such as social anxiety disorder or major depressive disorder.",
+          "confidence": 3
+        }
+      ]
+    },
+    "average_confidence": 3.91,
+    "assessment_tool": null,
+    "assessment_score": null,
+    "assessment_details": null,
+    "severity": "N/A",
+    "panic_attacks": {
+      "present": false,
+      "evidence": "The patient does not report experiencing an abrupt surge of intense fear or discomfort that reaches a peak within minutes. Additionally, the patient does not exhibit four or more of the specified symptoms of a panic attack.",
+      "symptoms": []
+    },
+    "score": 54.55
+  }
+}

@@ -1,0 +1,11 @@
+.unordered-list-styles {
+    margin: 0.5rem 0 0 1.2rem;
+    list-style-type:disc;
+}
+.unordered-list-styles li {
+    line-height: 1.35;
+    margin-bottom: 0.6rem;
+}
+.unordered-list-styles li:last-child {
+    margin-bottom: 0;
+}

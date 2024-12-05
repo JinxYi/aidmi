@@ -1,0 +1,36 @@
+.chat-message-wrapper {
+    box-shadow: rgba(33, 51, 141, 0.1) 0px 2px 5px -5px, rgba(31, 54, 172, 0.1) 0px 2px 3px -5px;
+    white-space: pre-line;
+    flex-shrink: 1;
+}
+
+.chat-message-wrapper.user {
+    border-top-right-radius: 0;
+    position: relative;
+}
+/* .chat-message-wrapper::before,
+.chat-message-wrapper::after {
+    top: 0.1rem;
+    content: "";
+    height: 1rem;
+    position: absolute;
+} */
+
+.chat-message-wrapper.assistant {
+    border-top-left-radius: 0;
+}
+
+/* .chat-message-wrapper.user::before {
+    border-right: 1.4rem solid #eaeaea;
+    right: -0.3rem;
+    transform: translate(0, -0.1rem);
+}
+
+.chat-message-wrapper.user::after {
+    background-color: #f0f0f0;
+    border-top-left-radius: 0.5rem;
+    top: 0.2rem;
+    right: -40px;
+    transform: translate(-30px, -2px);
+    width: 10px;
+} */

@@ -1,0 +1,65 @@
+.landing-wrapper {
+    position: relative;
+}
+
+.logo {
+    width: 6.6rem;
+    height: auto;
+}
+.hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: auto;
+    margin: 7.5rem;
+}
+
+.top-navbar {
+    margin: 2rem;
+}
+
+.top-navbar .nav-item {
+    font-weight: 500;
+}
+
+.hero-title {
+    font-size: 48pt !important;
+    font-weight: 700 !important;
+    width: 60%;
+    margin-bottom: 0 !important;
+    opacity: 90%;
+}
+
+.hero-sub-title {
+    font-size: 0.95rem;
+    width: 40%;
+}
+
+.hero-section {
+    margin: 4.5rem;
+    margin-top: 8rem;
+    z-index: 99;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-title {
+        width: 100%;
+        font-size: 40pt !important; /* Optionally reduce font size for smaller screens */
+    }
+    .hero-sub-title {
+        font-size: normal;
+        width: 100%;
+    }
+    .hero-section {
+        margin: 2rem;
+        margin-top: 7rem;
+    }
+    .hero-image {
+        width: 90%;
+        margin: 3rem;
+    }
+    .top-navbar {
+        margin: 0.5rem;
+    }
+}

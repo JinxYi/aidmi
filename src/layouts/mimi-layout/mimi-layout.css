@@ -1,0 +1,8 @@
+.profile-menu-item {
+    padding: .4rem 0.7rem;
+    cursor: pointer;
+    /* justify-content: space-between; */
+}
+.profile-menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
